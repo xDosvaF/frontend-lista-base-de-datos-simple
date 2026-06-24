@@ -1,0 +1,27 @@
+{
+    "nombre": "Esteban",
+    "apellido": "Godoy",
+    "lenguajes":["JavaScript","Python","C++"],
+    "edad":30,
+    "experiencia":[
+        {
+            "empresa":"Microsoft",
+            "antiguedad":5
+        },
+        {
+            "empresa":"Google",
+            "antiguedad":3
+        }
+    ],
+    "direccion":{
+        "calle":"asd",
+        "numero":40,
+        "colonia":"NY",
+        "pago_agua":[
+            {
+                "id":0,
+                "fecha":"abril 2017"
+            }
+        ]
+    }
+}

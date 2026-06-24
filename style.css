@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 16px 12px;
+    gap: 12px;
+    min-width: 200px;
+    min-height: 150px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#lista-dinamica{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.lista-hijo{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
