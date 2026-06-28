@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-        <div class="input-container">
-            <label for="text-box">Nombre</label>
-            <input id="text-box" type="text" placeholder="Escribir...">
+        <div class="input-div">
+            <label for="text-producto">Producto</label>
+            <input id="text-producto" type="text" placeholder="Producto">
         </div>
-        <button id="button-save" type="button">Guardar</button>
-        <ul id="lista-dinamica"></ul>
+        <div class="input-div">
+            <label for="combo-box-categoria">categoria</label>
+            <select name="categoria" id="combo-box-categoria">
+                <option value="alimento">Alimento</option>
+                <option value="ropa">Ropa</option>
+                <option value="oficina">Oficina</option>
+            </select>
+        </div>
+        <div class="input-div">
+            <label for="number-precio">Precio</label>
+            <input id="number-precio" type="number" step="0.01" min="0.00" value="1">
+        </div>
+        <button id="button-guardar">Guardar</button>
+        <ul id="lista-padre">
+            <li class="lista-hijo" id="list-title">
+                <p>Producto</p>
+                <p>Categoria</p>
+                <p>Precio</p>
+                <span></span>
+            </li>
+        </ul>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -6,35 +6,34 @@
 
 body{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border: 1px solid black;
-    padding: 16px 12px;
-    gap: 12px;
-    min-width: 200px;
-    min-height: 150px;
+    min-width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 15px;
 }
 
-.input-container{
+.input-div{
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 
-#lista-dinamica{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+#button-guardar{
+    margin: 5px;
 }
 
 .lista-hijo{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    padding: 5px;
 }
