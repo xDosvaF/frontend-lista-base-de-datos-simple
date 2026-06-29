@@ -21,19 +21,52 @@ main{
     gap: 15px;
 }
 
+#button-guardar{
+    margin: 5px;
+}
+
+/* Lista */
+
+#lista-padre{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.lista-hijo{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    border-style: outset;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.button-remove{
+    display: flex;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    border-style: none;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* INPUTS */
 .input-div{
     display: flex;
     flex-direction: column;
     gap: 3px;
 }
 
-#button-guardar{
-    margin: 5px;
-}
-
-.lista-hijo{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 5px;
+.input-element{
+    border-radius: 7px;
+    padding: 2px 8px;
+    border-style: solid;
 }

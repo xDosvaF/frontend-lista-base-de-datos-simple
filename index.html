@@ -12,11 +12,11 @@
     <main>
         <div class="input-div">
             <label for="text-producto">Producto</label>
-            <input id="text-producto" type="text" placeholder="Producto">
+            <input class="input-element" id="text-producto" type="text" placeholder="Producto">
         </div>
         <div class="input-div">
             <label for="combo-box-categoria">categoria</label>
-            <select name="categoria" id="combo-box-categoria">
+            <select class="input-element" name="categoria" id="combo-box-categoria">
                 <option value="alimento">Alimento</option>
                 <option value="ropa">Ropa</option>
                 <option value="oficina">Oficina</option>
@@ -24,14 +24,16 @@
         </div>
         <div class="input-div">
             <label for="number-precio">Precio</label>
-            <input id="number-precio" type="number" step="0.01" min="0.00" value="1">
+            <input class="input-element" id="number-precio" type="number" step="0.01" min="0.00" value="1">
         </div>
-        <button id="button-guardar">Guardar</button>
+        <button class="input-element" id="button-guardar">Guardar</button>
         <ul id="lista-padre">
             <li class="lista-hijo" id="list-title">
                 <p>Producto</p>
                 <p>Categoria</p>
                 <p>Precio</p>
+                <span></span>
+                <span></span>
                 <span></span>
             </li>
         </ul>
